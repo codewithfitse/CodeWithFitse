@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on Start Up.<br>🌱 I’m currently learning on C++, phyton...<br>👯 I’m looking to collaborate on Payment System...<br>💬 Ask me about any thing<br>📫 Let's connect: [Linkedin](https://WWW.linkedin.com/in/fitsum-zerihun-89aab02a9)<br>😄 Computer Science Student At HOPE<br>⚡️ Enjoy Coding!
+🔭 I’m currently working on Start Up.<br>🌱 I’m currently learning on C++, phyton...<br>👯 I’m looking to collaborate on Payment System...<br>💬 Ask me about any thing<br>📫 Let's connect: [Linkedin](https://WWW.linkedin.com/in/fitsum-zerihun-89aab02a9)<br>😄 Computer Science Student At HOPE<br>AKA GAME DEVELOPER 🎮 <br>⚡️ Enjoy Coding!
 
 
 ## 🌐 Socials:
