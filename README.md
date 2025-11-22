@@ -5,7 +5,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/codewithfitse?igsh=MXdlZW9lMzRpb205dQ==) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://WWW.linkedin.com/in/fitsum-zerihun-89aab02a9) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@https://www.tiktok.com/@codewithfitse?_t=ZM-8x4IWJnVxp8&_r=1) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/lil_fitse?t=cmxfDqpAWbK_l75aeqygzg&s=09) 
 
 <a href="https://tryhackme.com/p/NightAbyss">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/NightAbyss.png" alt="TryHackMe Badge" width="300" />
+  <img src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=6238089" alt="TryHackMe Badge" width="300" />
 </a>
 
 
