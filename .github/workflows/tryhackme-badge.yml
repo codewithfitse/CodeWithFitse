@@ -25,3 +25,6 @@ jobs:
         with:
           commit_message: "Update TryHackMe badge"
           file_pattern: thm_badge.png
+          push: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
