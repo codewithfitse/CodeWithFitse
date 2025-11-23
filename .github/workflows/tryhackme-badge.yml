@@ -1,17 +1,19 @@
 name: Refresh TryHackMe Badge
 
-# When this action runs
 on:
   schedule:
-    # Runs once every day at midnight
     - cron: "0 0 * * *"
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch:
 
 jobs:
   update-badge:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 0: Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       # Step 1: Download the latest badge
       - name: Download latest badge
         run: |
