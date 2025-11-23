@@ -1,5 +1,6 @@
 name: Refresh TryHackMe Badge
 
+# Run once per day, plus allow manual trigger
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -10,21 +11,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 0: Checkout repository
+      # Step 0: Checkout repository with token (needed for commits)
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Step 1: Download the latest badge
       - name: Download latest badge
         run: |
           curl -L "https://tryhackme-badges.s3.amazonaws.com/NightAbyss.png?nocache=$(date +%s)" --output thm_badge.png
 
-      # Step 2: Commit and push badge
+      # Step 2: Commit and push the badge if changed
       - name: Commit and push badge
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update TryHackMe badge"
           file_pattern: thm_badge.png
-          push: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
