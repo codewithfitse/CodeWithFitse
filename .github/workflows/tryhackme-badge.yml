@@ -1,0 +1,25 @@
+name: Refresh TryHackMe Badge
+
+# When this action runs
+on:
+  schedule:
+    # Runs once every day at midnight
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Download the latest badge
+      - name: Download latest badge
+        run: |
+          curl -L "https://tryhackme-badges.s3.amazonaws.com/NightAbyss.png?nocache=$(date +%s)" --output thm_badge.png
+
+      # Step 2: Commit and push badge
+      - name: Commit and push badge
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update TryHackMe badge"
+          file_pattern: thm_badge.png
